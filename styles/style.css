@@ -1,0 +1,65 @@
+body {	
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size: 1.3em;
+    background-image: url("greyback.jpg");
+
+
+}
+
+#titulo{
+    position: absolute;    
+    left: 550px;
+    margin-top: -65px;
+    color: #8C96AC;
+    
+}
+
+h1{
+    position: absolute;
+	color:#8C96AC;    
+	left: 690px;
+    user-select: none;
+}
+
+input {
+
+    background-color:#FFF;
+	font-size: 6vw;
+	width: 10vw;
+	height:10vw;
+	margin: 0;
+	color: #FFF;
+    border-radius: 10px;
+    
+}
+
+main{
+    margin-top: 70px;
+}
+
+#jogador {
+	display: inline;
+}
+
+#reiniciar {
+	position: absolute;
+	margin-top: 2%;
+	width: 12vw;
+	height:6vw;
+	font-size: 1em;
+    transition: background 1s;
+    background-color: #FFF;    
+	color: black;
+    border-radius: 20px;
+    cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style:italic;
+	left: 490px;
+}
+
+#reiniciar:hover{
+    background-color: #4D5462;
+    color: #FFF;
+}
